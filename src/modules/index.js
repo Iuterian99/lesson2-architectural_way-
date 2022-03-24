@@ -5,8 +5,8 @@ const Posts = require('./Posts/posts')
 
 router
     .get('/users', Users.GET)
-    .post('/updateUser', Users.POST)
+    .post('/addUser', Users.POST)
     .get('/posts', Posts.GET)
-    .post('/updatePost', Posts.POST)
+    .post('/addPost', Posts.POST)
 
 module.exports = router
